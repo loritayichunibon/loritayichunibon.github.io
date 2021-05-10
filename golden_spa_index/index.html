@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>阡森</title>
+    <!-- 頁簽顯示LOGO -->
+    <link rel="shortcut icon" href="images/ico_logo.ico">
+    <!-- (Bootstrap) Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Bootstrap Material Design -->
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+        integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- jQuery Core 3.1.0 -->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <!-- material-icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&family=Noto+Serif+TC:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <!-- lity -->
+    <link href="css/lity.min.css" rel="stylesheet">
+    <!-- 自定義Css_start-->
+    <!-- 定義全站html標籤、網站字體或是取消套件預設 -->
+    <link rel="stylesheet" href="css/global.css">
+    <!-- 定義全站中常駐項目 -->
+    <link rel="stylesheet" href="css/layout.css">
+    <!-- 首頁專用Css -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 預留可自定義Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 自定義Css_end-->
+
+</head>
+
+<body>
+    <div class="container-fluid bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay indexContainer">
+        <div class="headerTopMenu">
+            <!-- logo/登入/註冊/詢價車/語系/搜尋_start-->
+            <div class="topInfoContainer">
+                <div class="topInfoContainerInner">
+                    <div class="container container1320 nopadding">
+                        <!-- logo -->
+                        <div class="logo pcLogo">
+                            <h1>
+                                <a href="index.php"><img src="images/goldenSpa_logo.svg" alt=""></a>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="topInfo">
+                        <div class="container-fluid nopadding">
+                            <div class="container nopadding">
+                                <div class="topInfoInner">
+                                    <!-- 登入/註冊/詢價車/搜尋 -->
+                                    <ul>
+                                        <!-- <li>
+                                            <a href="javascript:void(0);" class="loginBtn">
+                                                登入
+                                            </a>
+                                        </li>
+                                        <li><a href="javascript:void(0);" class="logoutBtn">登出</a></li>
+                                        <li><a href="javascript:void(0);" class="registerBtn">註冊</a></li>
+                                        <li><a href="javascript:void(0);" class="inquiryBtn">詢價車</a></li> -->
+                                        <!-- <li class="mobileShow"><a href="search.php" class="searchBtn ">搜尋</a></li> -->
+                                        <li class="webShow">
+                                            <div class="topSearchContent">
+                                                <form>
+                                                    <div class="searchContent">
+                                                        <div class="searchContentInner"><input type="text"
+                                                                class="form-control" placeholder="請輸入關鍵字"></div>
+                                                        <div class="searchContentInner searchBlock"><button
+                                                                type="submit" class="searchBtn"></button></div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 登入/註冊/詢價車/搜尋_end-->
+            <!-- 主選單_start -->
+            <header class="headerContent">
+                <div class="container-fulid  container1320">
+                    <div class="menuContainer">
+                        <div class="menuContainerInner">
+                            <nav>
+                                <ul id="mainMenu" itemscope itemtype="http://www.schema.org/SiteNavigationElement"
+                                    class="mainNav">
+                                    <li itemprop="name" id="menu01">
+                                        <a itemprop="url" href="#">關於我們</a>
+                                    </li>
+                                    <li itemprop="name" id="menu05">
+                                        <a itemprop="url" href="#">課程服務</a></a>
+                                        <!-- 客製功能_start -->
+                                        <ul class="dropdownMenu">
+                                            <li><a href="#">產品目錄</a></li>
+                                            <li>
+                                                <a href="productList.php">NIKE</a></a>
+                                            </li>
+                                            <li><a href="productList.php">ADIDAS</a></li>
+                                            <li><a href="productList.php">New Balance</a></li>
+                                            <li><a href="productList.php">Puma</a></li>
+                                            <li><a href="productList.php">Asics</a></li>
+                                        </ul>
+                                        <!-- 客製功能_end -->
+                                    </li>
+                                    <li itemprop="name" id="menu04">
+                                        <a itemprop="url" href="#">環境展示</a>
+                                    </li>
+                                    <!-- 客製功能_start -->
+                                    <li itemprop="name" id="menu10">
+                                        <a itemprop="url" href="#" class="expansion">客戶感言</a>
+                                    </li>
+                                    <!-- 客製功能_end -->
+                                    <li itemprop="name" id="menu02">
+                                        <a itemprop="url" href="#">最新消息</a>
+                                    </li>
+                                    <!-- 客製功能_start -->
+                                    <li itemprop="name" id="menu12">
+                                        <a itemprop="url" href="#">聯絡我們</a>
+                                    </li>
+                                    <!-- 客製功能_end -->
+                                    <li itemprop="name" id="menu03">
+                                        <a itemprop="url" href="javascript:void(0);" class="arrowDown">公司簡介</a>
+                                        <!-- 客製功能_start -->
+                                        <ul class="dropdownMenu">
+                                            <li><a href="pageCate.php">公司簡介</a></li>
+                                            <li><a href="pageDt.php">關於我們</a></li>
+                                            <li><a href="pageDt.php">核心技術</a></li>
+                                            <li><a href="pageDt.php">企業理念</a></li>
+                                            <li><a href="pageDt.php">歷史沿革</a></li>
+                                        </ul>
+                                        <!-- 客製功能_end -->
+                                    </li>
+                                    <!-- 客製功能_start -->
+                                    <li itemprop="name" id="menu06">
+                                        <a itemprop="url" href="productList.php" class="expansion">鞋子(自定義)</a>
+                                    </li>
+                                    <!-- 客製功能_end -->
+                                    <!-- 客製功能_start -->
+                                    <li itemprop="name" id="menu07">
+                                        <a itemprop="url" href="video.php" class="expansion">影音專區</a>
+                                    </li>
+                                    <!-- 客製功能_end -->
+                                    <!-- 客製功能_start -->
+                                    <li itemprop="name" id="menu08">
+                                        <a itemprop="url" href="download.php" class="expansion">下載專區</a>
+                                    </li>
+                                    <!-- 客製功能_end -->
+                                    <!-- 客製功能_start -->
+                                    <li itemprop="name" id="menu09">
+                                        <a itemprop="url" href="catelog.php" class="expansion">型錄瀏覽</a>
+                                    </li>
+                                    <!-- 客製功能_end -->
+                                    <!-- 客製功能_start -->
+                                    <li itemprop="name" id="menu11">
+                                        <a itemprop="url" href="faq.php">常見問題</a>
+                                    </li>
+                                    <!-- 客製功能_end -->
+                                    <!-- 客製功能_start -->
+                                    <li itemprop="name" id="menu13">
+                                        <a itemprop="url" href="javascript:void(0);" class="arrowDown">語系</a>
+                                        <ul class="dropdownMenu">
+                                            <li><a href="javascript:void(0);">英文版</a></li>
+                                            <li><a href="javascript:void(0);">中文版</a></li>
+                                            <li><a href="javascript:void(0);">簡中版</a></li>
+                                            <li><a href="javascript:void(0);">日文版</a></li>
+                                        </ul>
+                                    </li>
+                                    <!-- 客製功能_end -->
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- 主選單_end -->
+        </div>
+        <!-- 手機選單_start -->
+        <header class="bmd-layout-header mbHeadContainer animate">
+            <div class="bg-faded">
+                <div class="mbHeadContainerInner">
+                    <div class="logo mbLogo">
+                        <a href="#"><img src="images/goldenSpa_logo.svg" alt=""></a>
+                    </div>
+                    <div class="mbMenuBtn">
+                        <button class="navbar-toggler" type="button" data-toggle="drawer" data-target="#dw-s2">
+                            <span class="mbMenuBar"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="dw-s2" class="bmd-layout-drawer bg-faded mbMenu">
+            <div id="leftMenu">
+                <div class="mbClose">
+                    <button type="button" class="mbCloseBtn"><span class="material-icons">close</span></button>
+                </div>
+                <div id="mbSearch">
+                    <form>
+                        <div class='searchContent'>
+                            <div class='searchContentInner'><input type='text' class='form-control'
+                                    placeholder='請輸入關鍵字'></div>
+                            <div class='searchContentInner searchBlock'><button type='submit'
+                                    class='searchBtn'></button></div>
+                        </div>
+                    </form>
+                </div>
+                <ul class="nav sb-menu nav-list"></ul>
+            </div>
+        </div>
+        <!-- 手機選單_end -->
+        <main class="bmd-layout-content mainContainer">
+            <!-- 內容_start -->
+            <!-- index_banner_start -->
+            <section class="indexBannerContent bannerContent">
+                <div class="indexBannerContentInner bannerContentInner">
+                    <div class="owl-carousel owl-theme">
+                        <!-- banner_item_start -->
+                        <div class="item">
+                            <div class="bannerItem">
+                                <div class="bannerImg">
+                                    <a href="#" class="bannerImgInner">
+                                        <img src="images/banner/banner-3.jpg" alt="" title="" />
+                                    </a>
+                                </div>
+                                <div class="bannerText">
+                                    <p class='txtTitle'>Title
+                                    </p>
+                                    <p class='txtSubtitle'>Subtitle
+                                    </p>
+                                    <p class='txtNormal'>圖文編輯器</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- banner_item_end -->
+                        <!-- banner_item_start -->
+                        <div class="item">
+                            <div class="bannerItem">
+                                <div class="bannerImg">
+                                    <a href="#" class="bannerImgInner">
+                                        <img src="images/banner/banner-2.jpg" alt="" title="" />
+                                    </a>
+                                </div>
+                                <div class="bannerText">
+                                    <p class='txtTitle'>Title
+                                    </p>
+                                    <p class='txtSubtitle'>Subtitle
+                                    </p>
+                                    <p class='txtNormal'>圖文編輯器</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- banner_item_end -->
+                        <!-- banner_item_start -->
+                        <div class="item">
+                            <div class="bannerItem">
+                                <div class="bannerImg">
+                                    <a href="#" class="bannerImgInner">
+                                        <img src="images/banner/banner-1.jpg" alt="" title="">
+                                    </a>
+                                </div>
+                                <div class="bannerText">
+                                    <p class='txtTitle'>Title-02
+                                    </p>
+                                    <p class='txtSubtitle'>Subtitle-02
+                                    </p>
+                                    <p class='txtNormal'>圖文編輯器</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- banner_item_end -->
+                    </div>
+                </div>
+            </section>
+            <!-- index_banner_end -->
+            <!-- index_productCategory_owl_start -->
+            <section class="indexCategoryContent categoryContent">
+                <div class="container-fuild container1320 nopadding">
+                    <div class="contentTitle" data-aos="fade-up" data-aos-duration="2000"
+                        data-aos-anchor-placement="top-bottom">
+                        <h2>
+                            <span>課程服務</span>
+                        </h2>
+                    </div>
+                    <div class="categoryContentInner" data-aos="fade-up" data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
+                        <div class="row nomargin">
+                            <div class="col-12 col-sm-12 col-md-12 nopadding">
+                                <!-- category_item_start -->
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="#" class="ptImgInner"><img src="images/productCate/01.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="#" class="txtTitle">FACE SKINCARE</a>
+                                        <a href="#" class="txtSubtitle">臉部基礎保養</a>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="#" class="txtNormal">Our mission is what drives us to do
+                                            everything possible to expand human potential. We do that by creating groundbreaking
+                                            sport innovations, by making our products more sustainably, by building a creative
+                                            and diverse global team and by making a positive impact in communities where we live
+                                            and work. Based in Beaverton, Oregon, NIKE, Inc. includes the Nike, Converse, and
+                                            Jordan brands.</a>
+                                    </div>
+                                </div>
+                                <!-- category_item_end -->
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 nopadding">
+                                <!-- category_item_start -->
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="#" class="ptImgInner"><img
+                                                src="images/productCate/02.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="#" class="txtTitle">PRE-MATURE</a>
+                                        <a href="#" class="txtSubtitle">輕熟齡系列</a>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="#"
+                                            class="txtNormal">本商品恕不參與任何折扣代碼或現折優惠活動。這款連身褲旨在伴你努力訓練。採用圓筒針織設計，力求活動自如。兩側肩帶可調節，舒適貼合。</a>
+                                    </div>
+                                </div>
+                                <!-- category_item_end -->
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 nopadding">
+                                <!-- category_item_start -->
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="#" class="ptImgInner">
+                                            <img src="images/productCate/03.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="#" class="txtTitle">MATURE AGE</a>
+                                        <a href="#" class="txtSubtitle">熟女系列</a>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="#"
+                                            class="txtNormal">以經典設計與前衛創意，融合文化歷史與精湛工藝，標誌你獨一無二特徵的個性鞋款，立即挑選! 即上New Balance
+                                            官網預覽多款最新熱賣鞋款，成爲會員更可享有首單9折迎新優惠！ 網上齊碼開售。成爲會員即享9折迎新優惠。7天鑑賞期免費退貨。款式: 鞋履, 服裝, 配飾。</a>
+                                    </div>
+                                </div>
+                                <!-- category_item_end -->
+                            </div>
+                        </div>
+                        <div class="row nomargin">
+                            <div class="col-12 col-sm-12 col-md-12 nopadding">
+                                <!-- category_item_start -->
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="#" class="ptImgInner"><img src="images/productCate/04.png" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="#" class="txtTitle">BODY CARE</a>
+                                        <a href="#" class="txtSubtitle">身體保養</a>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="#"
+                                            class="txtNormal">PUMA是全球首屈一指的運動領導品牌，設計開發並銷售製造各種鞋類、服裝以及配件產品。</a>
+                                    </div>
+                                </div>
+                                <!-- category_item_end -->
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 nopadding">
+                                <!-- category_item_start -->
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="#" class="ptImgInner"><img
+                                                src="images/productCate/05.png" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="#" class="txtTitle">POSTURE SCULPTURE</a>
+                                        <a href="#" class="txtSubtitle">體態雕塑</a>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="#" class="txtNormal">專業運動品牌亞瑟士ASICS推出支撐型跑鞋GT-2000
+                                            9將成為跑者達成跑季目標的最佳夥伴！ 結合輕量、舒適、支撐和穩定，同時應付長距離跑、節奏跑和間歇跑的最佳鞋款。 ASICS官方網站。7天商品鑑賞期。款式:
+                                            跑鞋, 休閒鞋, 運動服飾, 運動配件。</a>
+                                    </div>
+                                </div>
+                                <!-- category_item_end -->
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 nopadding">
+                                <!-- category_item_start -->
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="#" class="ptImgInner"><img
+                                                src="images/productCate/06.png" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="#" class="txtTitle">SPECIAL CARE</a>
+                                        <a href="#" class="txtSubtitle">特殊護理</a>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="#"
+                                            class="txtNormal">以經典設計與前衛創意，融合文化歷史與精湛工藝，標誌你獨一無二特徵的個性鞋款，立即挑選! 即上New Balance
+                                            官網預覽多款最新熱賣鞋款，成爲會員更可享有首單9折迎新優惠！ 網上齊碼開售。成爲會員即享9折迎新優惠。7天鑑賞期免費退貨。款式: 鞋履, 服裝, 配飾。</a>
+                                    </div>
+                                </div>
+                                <!-- category_item_end -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="indexButtonContent">
+                        <a href="#" class="buttonBlock"><span>看更多</span></a>
+                    </div>
+                </div>
+            </section>
+            <!-- index_product_owl_end -->
+            <!-- index_product_start -->
+            <section class="indexProductContent productContent">
+                <div class="contentTitle">
+                    <h2>
+                        <span>首頁產品列表</span>
+                    </h2>
+                </div>
+                <div class="container">
+                    <div class="productContentInner" data-aos="fade-up" data-aos-duration="2000"
+                        data-aos-anchor-placement="top-bottom">
+                        <div class="row row-margin">
+                            <!-- product_item_start -->
+                            <div class="col-md-3 col-lg-3 col-sm-6 col-padding">
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="productDt.php" class="ptImgInner"><img
+                                                src="images/sampleCategory/product04.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="productDt.php" class="txtTitle">Nike Air Force 1 Crater</a>
+                                        <a href="productDt.php" class="txtSubtitle">女鞋</a>
+                                    </div>
+                                    <div class="ptModal">
+                                        <p class="txtSubtitle">
+                                            <sapn>
+                                                <sapn>產品型號：</sapn>
+                                            </sapn>CT1986-100
+                                        </p>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="productDt.php" class="txtNormal">Crater
+                                            泡棉創造革命性的舒適感。採用再生材質，為每一步伐增添彈力腳感；結合原版經典杯式外底設計與加深溝紋，成就時尚造型。</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product_item_end -->
+                            <!-- product_item_start -->
+                            <div class="col-md-3 col-lg-3 col-sm-6 col-padding">
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="productDt.php" class="ptImgInner"><img
+                                                src="images/sampleCategory/product03.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="productDt.php" class="txtTitle">Nike Air Force 1 Crater</a>
+                                        <a href="productDt.php" class="txtSubtitle">女鞋</a>
+                                    </div>
+                                    <div class="ptModal">
+                                        <p class="txtSubtitle">
+                                            <sapn>
+                                                <sapn>產品型號：</sapn>
+                                            </sapn>CT1986-100
+                                        </p>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="productDt.php" class="txtNormal">Crater
+                                            泡棉創造革命性的舒適感。採用再生材質，為每一步伐增添彈力腳感；結合原版經典杯式外底設計與加深溝紋，成就時尚造型。</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product_item_end -->
+                            <!-- product_item_start -->
+                            <div class="col-md-3 col-lg-3 col-sm-6 col-padding">
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="productDt.php" class="ptImgInner"><img
+                                                src="images/sampleCategory/product02.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="productDt.php" class="txtTitle">Nike Air Force 1 Crater</a>
+                                        <a href="productDt.php" class="txtSubtitle">女鞋</a>
+                                    </div>
+                                    <div class="ptModal">
+                                        <p class="txtSubtitle">
+                                            <sapn>
+                                                <sapn>產品型號：</sapn>
+                                            </sapn>CT1986-100
+                                        </p>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="productDt.php" class="txtNormal">Crater
+                                            泡棉創造革命性的舒適感。採用再生材質，為每一步伐增添彈力腳感；結合原版經典杯式外底設計與加深溝紋，成就時尚造型。</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product_item_end -->
+                            <!-- product_item_start -->
+                            <div class="col-md-3 col-lg-3 col-sm-6 col-padding">
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="productDt.php" class="ptImgInner"><img
+                                                src="images/sampleCategory/product01.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="productDt.php" class="txtTitle">Nike Air Force 1 Crater</a>
+                                        <a href="productDt.php" class="txtSubtitle">女鞋</a>
+                                    </div>
+                                    <div class="ptModal">
+                                        <p class="txtSubtitle">
+                                            <sapn>
+                                                <sapn>產品型號：</sapn>
+                                            </sapn>CT1986-100
+                                        </p>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="productDt.php" class="txtNormal">Crater
+                                            泡棉創造革命性的舒適感。採用再生材質，為每一步伐增添彈力腳感；結合原版經典杯式外底設計與加深溝紋，成就時尚造型。</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product_item_end -->
+                            <!-- product_item_start -->
+                            <div class="col-md-3 col-lg-3 col-sm-6 col-padding">
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="productDt.php" class="ptImgInner"><img
+                                                src="images/sampleCategory/product04.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="productDt.php" class="txtTitle">Nike Air Force 1 Crater</a>
+                                        <a href="productDt.php" class="txtSubtitle">女鞋</a>
+                                    </div>
+                                    <div class="ptModal">
+                                        <p class="txtSubtitle">
+                                            <sapn>
+                                                <sapn>產品型號：</sapn>
+                                            </sapn>CT1986-100
+                                        </p>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="productDt.php" class="txtNormal">Crater
+                                            泡棉創造革命性的舒適感。採用再生材質，為每一步伐增添彈力腳感；結合原版經典杯式外底設計與加深溝紋，成就時尚造型。</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product_item_end -->
+                            <!-- product_item_start -->
+                            <div class="col-md-3 col-lg-3 col-sm-6 col-padding">
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="productDt.php" class="ptImgInner"><img
+                                                src="images/sampleCategory/product03.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="productDt.php" class="txtTitle">Nike Air Force 1 Crater</a>
+                                        <a href="productDt.php" class="txtSubtitle">女鞋</a>
+                                    </div>
+                                    <div class="ptModal">
+                                        <p class="txtSubtitle">
+                                            <sapn>
+                                                <sapn>產品型號：</sapn>
+                                            </sapn>CT1986-100
+                                        </p>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="productDt.php" class="txtNormal">Crater
+                                            泡棉創造革命性的舒適感。採用再生材質，為每一步伐增添彈力腳感；結合原版經典杯式外底設計與加深溝紋，成就時尚造型。</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product_item_end -->
+                            <!-- product_item_start -->
+                            <div class="col-md-3 col-lg-3 col-sm-6 col-padding">
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="productDt.php" class="ptImgInner"><img
+                                                src="images/sampleCategory/product02.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="productDt.php" class="txtTitle">Nike Air Force 1 Crater</a>
+                                        <a href="productDt.php" class="txtSubtitle">女鞋</a>
+                                    </div>
+                                    <div class="ptModal">
+                                        <p class="txtSubtitle">
+                                            <sapn>
+                                                <sapn>產品型號：</sapn>
+                                            </sapn>CT1986-100
+                                        </p>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="productDt.php" class="txtNormal">Crater
+                                            泡棉創造革命性的舒適感。採用再生材質，為每一步伐增添彈力腳感；結合原版經典杯式外底設計與加深溝紋，成就時尚造型。</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product_item_end -->
+                            <!-- product_item_start -->
+                            <div class="col-md-3 col-lg-3 col-sm-6 col-padding">
+                                <div class="indexPtItem ptItem">
+                                    <div class="ptImg">
+                                        <a href="productDt.php" class="ptImgInner"><img
+                                                src="images/sampleCategory/product01.jpg" /></a>
+                                    </div>
+                                    <div class="ptName">
+                                        <a href="productDt.php" class="txtTitle">Nike Air Force 1 Crater</a>
+                                        <a href="productDt.php" class="txtSubtitle">女鞋</a>
+                                    </div>
+                                    <div class="ptModal">
+                                        <p class="txtSubtitle">
+                                            <sapn>
+                                                <sapn>產品型號：</sapn>
+                                            </sapn>CT1986-100
+                                        </p>
+                                    </div>
+                                    <div class="ptDesc">
+                                        <a href="productDt.php" class="txtNormal">Crater
+                                            泡棉創造革命性的舒適感。採用再生材質，為每一步伐增添彈力腳感；結合原版經典杯式外底設計與加深溝紋，成就時尚造型。</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- product_item_end -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- index_product_owl_end -->
+            <!-- index_html_editor_start -->
+            <section class="indexEditorContent indexEdHead">
+                <div class="container-fuild container1320 nopadding">
+                    <div class="contentTitle" data-aos="fade-up" data-aos-duration="2000"
+                        data-aos-anchor-placement="top-bottom">
+                        <h2>
+                            <span>環境展示</span>
+                        </h2>
+                    </div>
+                    <div class="txtContent" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="indexEnviroment">
+                            <div class="enviroInner">
+                                <!-- enviroImgItem_start -->
+                                <div class="enviroItem">
+                                    <div class="enviroImg">
+                                        <img src="images/enviroment/01.jpg" alt="">
+                                    </div>
+                                    <div class="enviroText">
+                                        <p>GOLDEN.SPA｜雙人教室</p>
+                                    </div>
+                                </div>
+                                <!-- enviroImgItem_end -->
+                                <!-- enviroImgItem_start -->
+                                <div class="enviroItem">
+                                    <div class="enviroImg">
+                                        <img src="images/enviroment/02.jpg" alt="">
+                                    </div>
+                                    <div class="enviroText">
+                                        <p>GOLDEN.SPA｜沖洗室</p>
+                                    </div>
+                                </div>
+                                <!-- enviroImgItem_end -->
+                            </div>
+                            <div class="enviroInner">
+                                <!-- enviroImgItem_start -->
+                                <div class="enviroItem">
+                                    <div class="enviroImg">
+                                        <img src="images/enviroment/03.jpg" alt="">
+                                    </div>
+                                    <div class="enviroText">
+                                        <p>GOLDEN.SPA｜休憩環境</p>
+                                    </div>
+                                </div>
+                                <!-- enviroImgItem_end -->
+                                <!-- enviroImgItem_start -->
+                                <div class="enviroItem">
+                                    <div class="enviroImg">
+                                        <img src="images/enviroment/04.jpg" alt="">
+                                    </div>
+                                    <div class="enviroText">
+                                        <p>GOLDEN.SPA｜課程教室</p>
+                                    </div>
+                                </div>
+                                <!-- enviroImgItem_end -->
+                            </div>
+                            <div class="enviroInner">
+                                <!-- enviroImgItem_start -->
+                                <div class="enviroItem">
+                                    <div class="enviroImg">
+                                        <img src="images/enviroment/05.jpg" alt="">
+                                    </div>
+                                    <div class="enviroText">
+                                        <p>GOLDEN.SPA｜休憩環境</p>
+                                    </div>
+                                </div>
+                                <!-- enviroImgItem_end -->
+                                <!-- enviroImgItem_start -->
+                                <div class="enviroItem">
+                                    <div class="enviroImg">
+                                        <img src="images/enviroment/06.jpg" alt="">
+                                    </div>
+                                    <div class="enviroText">
+                                        <p>GOLDEN.SPA｜課程教室</p>
+                                    </div>
+                                </div>
+                                <!-- enviroImgItem_end -->
+                            </div>
+                            <div class="indexButtonContent" data-aos="fade-down" data-aos-easing="linear"
+                                data-aos-duration="2000" data-aos-anchor-placement="top-bottom">
+                                <a href="#" class="buttonBlock"><span>更多介紹</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- index_html_editor_end -->
+            <!-- middle_banner_start -->
+            <section class="contentBannerBlock">
+                <div class="container-fuild">
+                    <div class="contentBannerInner">
+                        <img src="images/banner/banner-1.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <!-- middle_banner_end -->
+            <!-- index_news_start -->
+            <section class="indexNewsContent newsContent">
+                <div class="container-fuild container1520 nopadding">
+                    <div class="contentTitle" data-aos="fade-up" data-aos-duration="2000"
+                        data-aos-anchor-placement="top-bottom">
+                        <h2>
+                            <span>最新消息</span>
+                        </h2>
+                    </div>
+                    <ul class="newsItemContent" data-aos="fade-right" data-aos-easing="ease-in-sine"
+                        data-aos-duration="2000">
+                        <!-- news_item_start -->
+                        <li class="newsItem">
+                            <div class="newsItemInner">
+                                <img src="images/news/01.jpg" />
+                            </div>
+                            <div class="newsItemInner newsItemText">
+                                <time class="">2021 - 0428</time>
+                                <div class="newsTitle"><a href="#" class="txtTitle"> 母親節快樂！SuperWoman</a></div>
+                                <div class="newsNormalDesc"><a href="#" class="txtNormal">💘今天只聽我的，母親節快樂！#愛自己
+                                        #今天只聽我的媽媽、老婆、媳婦、女兒、員工、小姐、太太....那妳怎麼稱呼自己呢？歡迎幫自己填空 ________✨晉升到了某個時刻，身分越多
+                                        就越不敢懈怠！每個女人都是超級Superwoman💪⚡但請記住永遠要傾聽自己的聲音！▶️最近是不是累了？壓力很大？膚況變差？...</a></div>
+                            </div>
+                        </li>
+                        <!-- news_item_end -->
+                        <!-- news_item_start -->
+                        <li class="newsItem">
+                            <div class="newsItemInner">
+                                <img src="images/news/02.jpg" />
+                            </div>
+                            <div class="newsItemInner newsItemText">
+                                <time class="">2021 - 0428</time>
+                                <div class="newsTitle"><a href="#" class="txtTitle">🔥減脂大作戰🔥打造我的A4腰</a></div>
+                                <div class="newsNormalDesc"><a href="#"
+                                        class="txtNormal">＼🔥減脂大作戰🔥打造我的A4腰／迎接盛夏到來～姊妹們一起來炫『腹』✨小編來趕緊來分享幾招實在’’腰瘦’’方法👇👇✅多吃蔬果纖維要足夠！纖維要足夠！纖維要足夠！因為很重要所以說3次～可以增加飽足感，幫助減重、減少腹部脂肪👈ex:糙米、地瓜、青菜...都是不錯的選擇唷✅多喝水、少喝含糖飲料</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- news_item_end -->
+                        <!-- news_item_start -->
+                        <li class="newsItem">
+                            <div class="newsItemInner">
+                                <img src="images/news/03.jpg" />
+                            </div>
+                            <div class="newsItemInner newsItemText">
+                                <time class="">2021 - 0428</time>
+                                <div class="newsTitle"><a href="#" class="txtTitle">🌟【Goldenspa #岩盤浴
+                                        】讓妳爆汗排毒，通體舒暢～🌟</a></div>
+                                <div class="newsNormalDesc"><a href="#"
+                                        class="txtNormal">鐳礦石是什麼呢？是世上稀有的天然溫泉沉澱結晶物，被譽為＜溫泉精靈＞非常神祕又夢幻！它會釋放✓高鐳礦石是什麼呢？是世上稀有的天然溫泉沉澱結晶物，被譽為＜溫泉精靈＞非常神祕又夢幻！它會釋放✓高
+                                        ...</a></div>
+                            </div>
+                        </li>
+                        <!-- news_item_end -->
+                        <!-- news_item_start -->
+                        <li class="newsItem">
+                            <div class="newsItemInner">
+                                <img src="images/news/04.jpg" />
+                            </div>
+                            <div class="newsItemInner newsItemText">
+                                <time class="">2021 - 0428</time>
+                                <div class="newsTitle"><a href="#" class="txtTitle">請叫我姐姐~</a></div>
+                                <div class="newsNormalDesc"><a href="#"
+                                        class="txtNormal">#準備開PARTY啦🥳終於等到家中寶貝開學了～🙆‍♀️👉媽媽們快趁現在好好保養起來👈【不能不漂亮的2大理由】1️⃣.好時機~小孩上學去，有更多時間好好寵愛自己2️⃣.家長會當時尚美妝聚會，水噹噹出席~【不能錯過的2大課程】1️⃣.#鈦舒壓｜幫助更深層淋巴筋絡排酸排毒～🧖‍♀️2️⃣.#逆齡頭皮舒緩護理｜特別添加德國天然活氧配方🌱</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- news_item_end -->
+                        <!-- news_item_start -->
+                        <li class="newsItem">
+                            <div class="newsItemInner">
+                                <img src="images/news/05.jpg" />
+                            </div>
+                            <div class="newsItemInner newsItemText">
+                                <time class="">2021 - 0428</time>
+                                <div class="newsTitle"><a href="#" class="txtTitle">小V臉 x 小U臉，妳是哪一種？</a></div>
+                                <div class="newsNormalDesc"><a href="#"
+                                        class="txtNormal">我真的不胖！但是嬰兒肥讓臉頰圓呼呼，一臉看去感覺人就虛胖了2公斤左右！【圓臉救星👉Goldenspa ...</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- news_item_end -->
+                    </ul>
+                    <div class="indexButtonContent" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1000">
+                        <a href="#" class="buttonBlock"><span>看更多</span></a>
+                    </div>
+                </div>
+            </section>
+            <!-- index_news_end -->
+            <!-- index_html_editor_start -->
+            <section class="indexEditorContent indexEdFoot">
+                <div class="container-fuild container1320 nopadding">
+                    <div class="contentTitle" data-aos="fade-up" data-aos-duration="3000" 
+                        data-aos-anchor-placement="center-bottom">
+                        <h2>
+                            <span>關於我們</span>
+                        </h2>
+                    </div>
+                    <div class="txtContent">
+                        <div class="indexAboutBlock">
+                            <div class="indexAboutInner" data-aos="fade-right" data-aos-easing="ease-in-sine"
+                                data-aos-duration="3000" data-aos-anchor-placement="center-bottom">
+                                <!-- aboutUs_text_start -->
+                                <div class="aboutText">
+                                    <p>Golden.Spa的成立，緣起於對於品質的極致要求，成本從來不是考量因素，我們精心打造的女性專屬私密空間，誓言全程不推銷，務從裝潢、產品、手技、氛圍、隱私、衛生、點心等細節追求完美，讓每一位貴賓片刻間均能感受用心。
+                                    </p>
+                                    <ul>
+                                        <li>產品一律採用法國、義大利、德國、西班牙原裝頂級品牌。</li>
+                                        <li>堅持尊榮隱私，每個房間均設獨立衛浴設備。</li>
+                                        <li>除夫妻同行特定空間外，謝絕男賓，所有單人房限定女性專屬。</li>
+                                        <li>美容師全程配戴口罩，提供一次性用品（紙拖鞋、不織布床巾、紙褲、浴帽），每次服務結束後立即無死角消毒美容床及其洞口，並每月整批汰換毛巾。</li>
+                                    </ul>
+                                    <div class="indexButtonContent">
+                                        <a href="#" class="buttonBlock"><span>看更多</span></a>
+                                    </div>
+                                </div>
+                                <!-- aboutUs_text_end -->
+                            </div>
+                            <div class="indexAboutInner" data-aos="fade-left" data-aos-easing="ease-in-sine"
+                                data-aos-duration="3000" data-aos-anchor-placement="center-bottom">
+                                <!-- aboutMapImg_start -->
+                                <div class="aboutMap">
+                                    <img src="images/about/map.svg" alt="">
+                                </div>
+                                <!-- aboutMapImg_end -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- index_html_editor_end -->
+            <!-- 內容_end -->
+            <!-- 頁尾_start -->
+            <footer>
+                <div class="footerTop">
+                    <div class="container1320">
+                        <div class="footerContent">
+                            <!-- 頁尾公司資訊_start -->
+                            <div class="companyInfoContent">
+                                <div class="companyInfoContentInner inner-1" data-aos="fade-right"
+                                    data-aos-duration="3000"
+                                    data-aos-anchor-placement="center-bottom">
+                                    <!-- 公司資訊 -->
+                                    <address class="companyInfo">
+                                        <div class="logoPhone">
+                                            <!-- logo -->
+                                            <div class="footerLogo">
+                                                <a href="#">
+                                                    <img src="images/goldenSpa_footLogo.svg" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="footPhoneItem">
+                                                <div class="footPhoneInner">
+                                                    <p class="txtSubtitle">TEL</p>
+                                                    <p class="txtNormal"><a href="tel:0227010333">02-2701-0333</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <p class="txtSubtitle">時間</p>
+                                                <p class="txtNormal"> 週一～週六　10:30～20:30(週日公休)</p>
+                                            </li>
+                                            <li>
+                                                <p class="txtSubtitle">地址</p>
+                                                <p class="txtNormal">台北市大安區信義路四段265巷32-1號1樓(捷運信義安和站5號出口)</p>
+                                            </li>
+                                            <li class="footerInfo info1">
+                                                <p class="txtSubtitle">電話</p>
+                                                <p class="txtNormal"><a href="tel:02-7713-7789">02-7713-7789</a></p>
+                                            </li>
+                                            <li class="footerInfo info2">
+                                                <p class="txtSubtitle">傳真</p>
+                                                <p class="txtNormal">02-2381-8877</p>
+                                            </li>
+                                            <li class="footerInfo info3">
+                                                <p class="txtSubtitle">Email</p>
+                                                <p class="txtNormal"><a href="mailto:isb@isb.com.tw">isb@isb.com.tw</a>
+                                                </p>
+                                            </li>
+                                        </ul>
+                                    </address>
+                                </div>
+                                <div class="companyInfoContentInner inner-2" data-aos="fade-left"
+                                    data-aos-duration="3000" data-aos-anchor-placement="center-bottom">
+                                    <div class="companyInfoInnerTable">
+                                        <!-- footerMenu -->
+                                        <div class="footerNavMenu">
+                                            <nav>
+                                                <ul class="mainNav">
+                                                    <li id="fmenu01">
+                                                        <a href="#">公司簡介</a>
+                                                    </li>
+                                                    <li id="fmenu05">
+                                                        <a href="#">課程服務</a></a>
+                                                    </li>
+                                                    <li id="fmenu04">
+                                                        <a href="#">環境展示</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="mainNav">
+                                                    <li id="fmenu10">
+                                                        <a href="#" class="expansion">客戶感言</a>
+                                                    </li>
+                                                    <li id="fmenu02">
+                                                        <a href="#">最新消息</a>
+                                                    </li>
+                                                    <li id="fmenu12">
+                                                        <a href="#">聯絡我們</a>
+                                                    </li>
+                                                </ul>
+                                                <ul class="mainNav">
+                                                    <li id="fmenu03">
+                                                        <a href="pageCate.php">公司簡介</a>
+                                                    </li>
+                                                    <li id="fmenu06">
+                                                        <a href="productList.php" class="expansion">鞋子(自定義)</a>
+                                                    </li>
+                                                    <li id="fmenu07">
+                                                        <a href="video.php" class="expansion">影音專區</a>
+                                                    </li>
+                                                    <li id="fmenu08">
+                                                        <a href="download.php" class="expansion">下載專區</a>
+                                                    </li>
+                                                    <li id="fmenu09">
+                                                        <a href="catelog.php" class="expansion">型錄瀏覽</a>
+                                                    </li>
+                                                    <li id="fmenu11">
+                                                        <a href="faq.php">常見問題</a>
+                                                    </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <!-- socialmedia -->
+                                        <div class="socialMediaBlock">
+                                            <div class="socialTit"><span>FOLLOW US</span></div>
+                                            <div class="socialmediaContent">
+                                                <div class="socialmediaContentInner youInner">
+                                                    <div class="linkItem">
+                                                        <a href="#" class="linkItemIcon">
+                                                            <img src="images/socialmedia/youtube.svg" />
+                                                        </a>
+                                                        <a href='#' class='linkItemText'>
+                                                            Youtube
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="socialmediaContentInner lineInner">
+                                                    <div class="linkItem">
+                                                        <a href="https://lin.ee/vND3hdO" class="linkItemIcon">
+                                                            <img src="images/socialmedia/line-brands-02.svg" />
+                                                        </a>
+                                                        <a href='#' class='linkItemText'>
+                                                            Line
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="socialmediaContentInner weInner">
+                                                    <div class="linkItem">
+                                                        <a href="#" class="linkItemIcon">
+                                                            <img src="images/socialmedia/wechat.svg" />
+                                                        </a>
+                                                        <a href='#' class='linkItemText'>
+                                                            Wechat
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="socialmediaContentInner twitterInner">
+                                                    <div class="linkItem">
+                                                        <a href="#" class="linkItemIcon">
+                                                            <img src="images/socialmedia/twitter.svg" />
+                                                        </a>
+                                                        <a href='#' class='linkItemText'>
+                                                            Twitter
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="socialmediaContentInner faceInner">
+                                                    <div class="linkItem">
+                                                        <a href="https://www.facebook.com/messages/t/goldentopspa"
+                                                            class="linkItemIcon">
+                                                            <img
+                                                                src="images/socialmedia/facebook-square-brands-02.svg" />
+                                                        </a>
+                                                        <a href='#' class='linkItemText'>
+                                                            Facebook
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 頁尾公司資訊_end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- 版權宣告/政策/網站地圖_start -->
+                <div class="footerBottom">
+                    <div class="container1320">
+                        <div class="policyCopyContainer">
+                            <div class="policySitemap">
+                                <ul>
+                                    <li><a href="#">服務條款</a></li>
+                                    <li><a href="#">隱私權政策</a></li>
+                                </ul>
+                            </div>
+                            <!-- 版權宣告 -->
+                            <div class="copyright">
+                                Copyright @ Newoil 3.0 / Designed by <a href="http://www.isb.com.tw">iSB</a>
+                            </div>
+                            <!-- 版權宣告/政策/網站地圖_end -->
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- 頁尾_end -->
+            <!-- 常駐項_start -->
+            <aside class="floatMenuContainer">
+                <ul>
+                    <li>
+                        <a href="tel:0227010333">
+                            <span class="material-icons">call</span>
+                            <span>電話</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto:isb@isb.com.tw">
+                            <span class="material-icons">email</span>
+                            <span>信箱</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="material-icons">contact_page</span>
+                            <span>聯絡我們</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="goTop">
+                            <span class="material-icons">keyboard_arrow_up</span>
+                            <span>回頂部</span>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+            <!-- 常駐項_end -->
+        </main>
+    </div>
+    <!-- (Bootstrap) Latest compiled and minified JavaScript -->
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"
+        integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+        integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous">
+    </script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        $('body').bootstrapMaterialDesign();
+    </script>
+    <!-- owl_carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- lity -->
+    <script src="js/lity.min.js"></script>
+    <!-- 自定義js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

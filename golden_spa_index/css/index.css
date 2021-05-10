@@ -1,0 +1,642 @@
+/* 基本設定_start */
+
+
+.indexContainer {
+    padding: 0px;
+}
+
+.indexButtonContent {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.padding_1{
+    padding: 10px 0px;
+}
+
+.padding_2{
+    padding: 10px 45px;
+}
+
+
+/* 基本設定_end */
+
+/* index_Banner_start */
+.indexBannerContent .bannerImg {
+    padding-bottom: 41.07%;
+}
+
+.indexBannerContent .owl-theme .owl-dots .owl-dot span{
+    width: 30px;
+    height: 4px;
+    background-color: #E2E2E2;
+    border: 1px solid #fff;
+    transition:  all 0.2s ease;
+    -webkit-transition:  all 0.2s ease;
+    -moz-transition:  all 0.2s ease;
+    -ms-transition:  all 0.2s ease;
+    -o-transition:  all 0.2s ease;
+}
+
+.indexBannerContent .owl-theme .owl-dots .owl-dot.active span{
+    background-color: #FFC933;
+    width: 60px;
+}
+/* index_Banner_end */
+
+/* indexCategory_start */
+.indexCategoryContent {
+    padding: 60px 0 100px;
+    /* border-bottom: 1px solid #EEE; */
+    position: relative;
+}
+
+.indexCategoryContent::after{
+        content: "";
+    display: block;
+    width: 95.84%;
+    height: 100%;
+    background-color: #F7F7F7;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    z-index: -99;
+}
+
+.indexCategoryContent .categoryContentInner {
+    position: relative;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+
+.indexCategoryContent .ptItemBlock{
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px 0px;
+}
+
+.indexCategoryContent .ptItem{
+    margin: 5px;
+}
+
+.indexCategoryContent .ptItemBlock .ptItem{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.indexCategoryContent .ptImg{
+    margin-bottom: unset;
+    height: 30vh;
+}
+
+
+.indexCategoryContent .ptDesc{
+    display: none;
+}
+
+.indexCategoryContent .indexButtonContent{
+    display: none;
+}
+
+
+/* .indexCategoryContent .categoryContentInner .owl-nav .owl-next {
+    position: absolute;
+    top: 25%;
+    right: -20px;
+    margin: 0;
+}
+
+.indexCategoryContent .categoryContentInner .owl-nav .owl-prev {
+    position: absolute;
+    top: 25%;
+    left: -20px;
+    margin: 0;
+} */
+
+
+/* indexCategory_end */
+
+
+/* index_product_start_隱掉 */
+
+.indexProductContent {
+    padding: 60px 0px;
+    border-bottom: 1px solid #EEE;
+    display: none;
+}
+
+/* index_product_end_隱掉 */
+
+
+
+/* index_Editor_start */
+
+.indexEditorContent {
+    padding: 60px 0;
+    background-color: #fbfbfb;
+}
+
+/* indexEdHead_頁首圖文編輯區_start */
+.indexEditorContent.indexEdHead{
+    background-color: unset;
+}
+
+.indexEdHead .txtContent{
+    box-shadow: unset;
+    -webkit-box-shadow: unset;box-shadow: unset;
+    -moz-box-shadow: unset;
+    -ms-box-shadow: unset;
+    -o-box-shadow: unset;
+}
+.indexEdHead .txtContent .enviroInner{
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px 0px;
+}
+.indexEdHead .txtContent .enviroItem{
+    display: table-cell;
+    vertical-align: top;
+
+}
+
+.indexEdHead .txtContent .enviroItem .enviroImg{
+    margin-bottom: 10px;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.indexEdHead .txtContent .enviroItem .enviroText{
+    padding-bottom: 50px;
+}
+.indexEdHead .buttonBlock span::before{
+    left: 80px; 
+}
+
+.enviroItem .enviroImg{
+    transition:  all 0.3s ease;
+    -webkit-transition:  all 0.3s ease;
+    -moz-transition:  all 0.3s ease;
+    -ms-transition:  all 0.3s ease;
+    -o-transition:  all 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+.enviroItem .enviroImg:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -ms-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.enviroItem .enviroImg:after{
+    content:"";
+    display: block;
+    width: 0%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.enviroItem .enviroImg:hover:after{
+    width: 100%;
+    background-color:  rgba(229, 160, 13, 0.4);
+}
+
+/* indexEdHead_頁首圖文編輯區_end */
+
+/* indexEdFoot_頁尾圖文編輯區_start */
+.indexEditorContent.indexEdFoot{
+    background-color: unset;
+    margin-bottom: 70px;
+}
+
+.indexEdFoot .txtContent{
+    box-shadow: unset;
+    -webkit-box-shadow: unset;box-shadow: unset;
+    -moz-box-shadow: unset;
+    -ms-box-shadow: unset;
+    -o-box-shadow: unset;
+    padding: 0;
+}
+
+.indexEdFoot{
+    background-image: url('../images/about/about-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.indexAboutBlock{
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 40px 0px;
+}
+
+.indexAboutInner{
+    display: table-cell;
+    vertical-align: top;
+
+}
+
+.indexAboutInner:first-child{
+    width: 42%;
+}
+
+
+.indexEdFoot .aboutText .indexButtonContent{
+    text-align: right;
+    padding-top: 50px;
+}
+
+.indexEdFoot .aboutText p{
+    margin-bottom: 35px;
+}
+
+.indexEdFoot .aboutText ul{
+    padding-left: unset;
+}
+
+.indexEdFoot .aboutText ul li{
+    margin-bottom: 12px;
+    list-style-type: unset;
+}
+
+
+.indexEdFoot .aboutText ul li::before{
+    content:"";
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background-color: #e5a00d;
+    border-radius: 1px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+
+/* .aboutText ul li::marker{
+    display: inline-block;
+    color: #E5A00D;
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: 20px;
+
+} */
+
+/* indexEdFoot_頁尾圖文編輯區_end */
+
+/* index_Editor_end */
+
+
+/* index_news_start */
+
+.indexNewsContent {
+    padding: 60px 0px;
+}
+.indexNewsContent ul.newsItemContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+
+.indexNewsContent ul.newsItemContent li.newsItem {
+    flex: 0 0 19%;
+    overflow: hidden;
+    padding: 0;
+    margin: 5px;
+}
+
+.indexNewsContent ul.newsItemContent li.newsItem .newsItemInner{
+    display: block;
+    width: 100%;
+    padding: 0;
+
+}
+
+/* .indexNewsContent ul.newsItemContent li.newsItem .newsItemInner:first-child{
+
+} */
+
+
+.indexNewsContent ul.newsItemContent li.newsItem .newsItemInner.newsItemText{
+    padding: 16px 16px 20px;
+}
+/* index_news_end */
+
+
+/* middle_banner_start */
+.contentBannerBlock{
+    overflow: hidden;
+    position: relative;
+}
+.contentBannerBlock::after{
+    content:"";
+    width:100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(229, 160, 13, 0.55);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.contentBannerInner{
+    padding: 10.8%;
+    position: relative;
+}
+
+.contentBannerInner img{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+/* middle_banner_end */
+
+/* 首頁標題_start */
+.categoryContent .contentTitle span::after {
+    content: "SERVICES";
+}
+
+.indexEdHead .contentTitle span::after {
+    content: "ENVIROMENT";
+    left: -40px;
+}
+
+.indexEdHead .contentTitle span::before {
+    left: -85px;
+}
+
+.newsContent .contentTitle span::after {
+    content: "NEWS";
+}
+
+.indexEdFoot .contentTitle span::after {
+    content: "ABOUT US";
+    left: -30px;
+}
+
+.indexEdFoot .contentTitle span::before {
+    left: -75px;
+}
+
+/* 首頁標題_end */
+
+/* ====RWD==== */
+
+@media only screen and (max-width: 1499px) {}
+
+@media (max-width: 1290px) and (min-width: 1201px) {
+    /* index_news_start */
+    .indexNewsContent ul.newsItemContent li.newsItem{
+        flex: 0 0 22%;
+    }
+    .indexNewsContent ul.newsItemContent{
+        justify-content: space-between;
+    }
+    /* index_news_end */
+}
+
+@media only screen and (max-width: 1200px) {
+    /* indexCategory_start */
+    .indexCategoryContent .ptItemBlock{
+        display: block;
+        width: 100%;
+        border-collapse: unset;
+        border-spacing: unset;
+    }
+
+    .indexCategoryContent .ptItem{
+        margin: 5px;
+    }
+
+    .indexCategoryContent .ptItemBlock .ptItem{
+        display: block;
+
+    }
+    .indexCategoryContent .ptImg{
+        height: 26vh;
+    }
+    
+
+    /* indexCategory_end */
+    /* index_news_start */
+    .indexNewsContent ul.newsItemContent li.newsItem{
+        flex: 0 0 23%;
+    }
+    /* index_news_end */
+    /* index_Editor_start */
+    /* 頁尾圖文區 */
+    .indexAboutBlock{
+        display: block;
+    }
+    .indexAboutInner{
+        display: block;
+        margin-bottom: 10px
+    }
+    .indexAboutInner:first-child{
+        width: 100%;
+    }
+    .aboutMap{
+        padding-top: 50px;
+    }
+    .indexEdFoot .aboutText .indexButtonContent {
+        text-align: center;
+        padding-top: 6px;
+    }
+    /* index_Editor_end */
+
+    
+}
+@media only screen and (max-width: 1199px) {
+    /* index_news_start */
+    .indexNewsContentInner {
+        max-width: 80%;
+    }
+    /* index_news_end */
+}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {
+    /* index_banner_start */
+    /* .swiperItem a {
+        height: 450px;
+    } */
+    /* index_banner_end */
+
+    /* index_news_start */
+    .indexNewsContent ul.newsItemContent{
+        justify-content: flex-start;
+    }
+
+    .indexNewsContent ul.newsItemContent li.newsItem {
+        flex: 0 0 48%;
+        margin: 10px 6px;
+    }
+    /* index_news_end */
+    /* 標題_start */
+    .indexEdHead .contentTitle span::before {
+        left: -45px;
+    }
+
+    .indexEdHead .contentTitle span::after {
+        left: 0px;
+    }
+
+    .indexEdFoot .contentTitle span::after {
+        left: 0px;
+    }
+
+    .indexEdFoot .contentTitle span::before {
+        left: -45px;
+    }
+
+    /* 標題_end */
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {
+    /* index_banner_start */
+    .indexBannerContent .bannerImg {
+        padding-bottom: 62.07%;
+    }
+    /* index_banner_end */
+    
+    /* index_news_start */
+    .indexNewsContentInner {
+        max-width: 100%;
+        padding: 0px 15px;
+    }
+    .indexNewsDate,
+    .indexNewsLink {
+        display: block;
+        width: 100%;
+        padding: 0px 15px;
+        border: none;
+    }
+    .indexNewsDate {
+        text-align: left;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .indexNewsLink a {
+        padding: 0px;
+        overflow: inherit;
+        text-overflow: inherit;
+        white-space: inherit;
+    }
+    .indexNewsContent ul.newsItemContent{
+        display: block;
+    }
+
+    .indexNewsContent ul.newsItemContent li.newsItem {
+        flex:unset;
+        margin: 0 0 20px 0;
+    }
+    /* index_news_end */
+
+    /* index_Category_start */
+    .indexCategoryContent{
+        background-color: #F7F7F7;
+    }
+    .indexCategoryContent::after{
+        display: none;
+    }
+    .indexCategoryContent .ptItem{
+        margin: 5px 0px;
+    }
+    .indexCategoryContent .ptImg{
+        height: 23vh;
+    }
+
+    .indexCategoryContent .categoryContentInner .owl-nav .owl-next {
+        right: -4px;
+    }
+    .indexCategoryContent .categoryContentInner .owl-nav .owl-prev {
+        left: -4px;
+    }
+    /* index_Category_end */
+
+    /*  indexEdHead 頁首圖文編輯區_start */
+    .indexEdHead .txtContent .enviroInner{
+        display: block;
+        width: 100%;
+        border-collapse: unset;
+        border-spacing: unset;
+    }
+    .indexEdHead .txtContent .enviroItem{
+        display: block;
+        
+    }
+    .indexEdHead .txtContent .enviroItem .enviroText{
+        padding-bottom: 30px;
+    }
+    /*  indexEdHead 頁首圖文編輯區_end */
+
+    /* 標題_start */
+    .contentTitle span::after {
+        font-size: 34px;
+    }
+
+    .contentTitle span::before {
+        width: 40px;
+        height: 40px;
+        left: -40px;
+    }
+
+    .indexEdHead .contentTitle span::before {
+        left: -40px;
+    }
+
+    .indexEdFoot .contentTitle span::before {
+        left: -40px;
+    }
+
+    /* 標題_end */
+    
+
+}
+
+@media only screen and (max-width: 568px) {
+    .bannerContent .owl-dots{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}

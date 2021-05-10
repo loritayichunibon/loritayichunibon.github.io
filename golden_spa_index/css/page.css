@@ -1,0 +1,87 @@
+/* 基本設定_start */
+
+.pageContainer {
+    padding: 0px;
+}
+
+
+/* 基本設定_end */
+
+
+/* 內頁banner_start */
+
+
+/* 內頁banner_end */
+
+
+/* 內頁_start */
+
+.pageContent {
+    padding: 48px 0px;
+}
+
+
+/* 內頁_end */
+
+
+/* 麵包屑_start */
+
+.breadcrumbContainer {
+    border-bottom: #eee solid 1px;
+    padding: 12px 0px;
+    margin-bottom: 48px;
+}
+
+.breadcrumbContainer ul {
+    text-align: left;
+    line-height: 1.4;
+}
+
+.breadcrumbContainer ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.breadcrumbContainer ul li::after {
+    content: "/";
+    margin: 0px 2px 0px 6px;
+    display: inline-block;
+}
+
+.breadcrumbContainer ul li:nth-last-child(1)::after {
+    content: "";
+    margin: 0px;
+}
+
+.breadcrumbContainer ul li a {
+    font-size: 14px;
+}
+
+
+/* 麵包屑_end */
+
+@media only screen and (max-width: 1499px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {
+    /* 內頁banner_start */
+    .innerBannerContainer {
+        height: 180px;
+    }
+    /* 內頁banner_end */
+}
+
+@media only screen and (max-width: 568px) {}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}
