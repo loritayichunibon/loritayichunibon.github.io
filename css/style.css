@@ -1,0 +1,110 @@
+/* 預留用CSS檔案 */
+
+.gaInner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+.gaInner iframe {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+/* 麵包屑_start */
+
+.breadcrumbContainer {
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+.breadcrumbContainer ul {
+    text-align: left;
+    line-height: 1.4;
+}
+
+.breadcrumbContainer ul li {
+    display: inline-block;
+}
+
+.breadcrumbContainer ul li::after {
+    content: "/";
+    margin: 0px 3px 0px 8px;
+    display: inline-block;
+}
+
+.breadcrumbContainer ul li:nth-last-child(1)::after {
+    content: "";
+    margin: 0px;
+}
+
+.breadcrumbContainer ul li a {
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+    
+}
+
+.breadcrumbActive{
+    color: #FCA311;
+    font-weight: bold;
+}
+
+
+/* 麵包屑_end */
+
+/* 按鈕_start */
+.btnLinkBlock{
+    text-align: center;
+    padding: 40px 0 20px;
+}
+a.btnLink{
+    display:inline-block;
+    background: #14213D;
+    padding: 8px 55px;
+    border: 1px solid #14213D;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition:  all 0.3s ease;
+    -webkit-transition:  all 0.3s;
+    -moz-transition:  all 0.3s;
+    -ms-transition:  all 0.3s;
+    -o-transition:  all 0.3s;
+}
+a.btnLink:hover{
+    background:#FCA311;
+    border: 1px solid #FCA311;
+    color:#fff;
+}
+/* 按鈕_end */
+
+@media only screen and (max-width: 1499px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 568px) {}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}

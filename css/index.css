@@ -1,0 +1,92 @@
+/* 基本設定_start */
+
+.indexContainer {
+    padding: 0px;
+}
+
+.indexButtonContent {
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+/* 基本設定_end */
+
+/* Banner_start */
+/* particles.js */
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+/* Banner_end */
+
+/* 頁尾_start */
+.copyright{
+    padding: 15px 0px 2px;
+}
+.socialMedia ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socialMedia ul li{
+    padding: 6px;
+    margin: 0;
+}
+.socialMedia ul li a{
+    color: #fff;
+    font-size: 20px;
+}
+.socialMedia ul li a:hover {
+    color: #FCA311;
+}
+/* 頁尾_end */
+
+
+@media only screen and (max-width: 1499px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {
+    footer{
+        padding-bottom: 5px;
+    }
+    .bannerText{
+        width: 100%;
+    }
+    .bannerText .textTitle{
+        letter-spacing: 6px;
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+    .bannerImg {
+        padding-bottom: 139%;
+    }
+}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}

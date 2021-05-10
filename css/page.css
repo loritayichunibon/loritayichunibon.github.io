@@ -1,0 +1,109 @@
+/* 基本設定_start */
+
+.pageContainer {
+    padding: 0px;
+}
+
+
+/* 基本設定_end */
+
+
+/* 內頁banner_start */
+
+
+/* 內頁banner_end */
+
+
+/* 內頁_start */
+
+.pageContent {
+    padding: 20px 0px 45px;
+}
+
+/* 內頁_end */
+
+/* about.html_start */
+.aboutContent .portfItem{
+    padding: 15px 20px;
+}
+
+.aboutContent .portfItem:hover{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0);
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0);
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0);
+    -ms-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0);
+    -o-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.0);
+}
+
+
+.textContent p.abtP{
+    margin-bottom: 6px;
+}
+
+.textContent ul li span.abtSpanLast{
+    padding-left: 24px;
+}
+
+/* about.html_end */
+
+/* portfolio.html_start */
+.portfolioContent .textContent p{
+    font-size: 16px;
+    color: #7a7a7a;
+    font-weight: 400;
+    margin-bottom: 24px;
+    text-align: justify;
+}
+/* portfolio.html_end */
+
+@media only screen and (max-width: 1499px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) {
+    /* 內頁banner_start */
+    .innerBannerContainer {
+        height: 180px;
+    }
+    /* 內頁banner_end */
+
+    /* 內頁主內容區域_start */
+    .pageInner{
+        padding: 0 12px;
+    }
+    /* 內頁主內容區域_end */
+    /* about.html_start */
+    .aboutContent p {
+        text-align: justify;
+    }
+    .aboutContent .portfItem:hover {
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+        -ms-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+        -o-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+    }
+    /* about.html_end */
+}
+
+@media only screen and (max-width: 568px) {
+
+    .aboutContent .portfItem{
+        padding: 12px;
+    }
+    .aboutContent .col-padding {
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 440px) {}
+
+@media only screen and (max-width: 420px) {}
